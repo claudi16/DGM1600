@@ -13,3 +13,4 @@ Drawing Supplies
 	-Medium tooth
 	-Acid free
 7. Bristol Board
+	-11”x14”
