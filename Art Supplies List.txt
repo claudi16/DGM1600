@@ -6,3 +6,4 @@ Drawing Supplies
 2. Pencil Sharpener
 3. Kneaded Eraser
 4. Rectangular Eraser
+5. Drawing Pad
