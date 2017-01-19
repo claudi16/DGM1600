@@ -5,3 +5,4 @@ Drawing Supplies
 	-2B, 4B, 6B
 2. Pencil Sharpener
 3. Kneaded Eraser
+4. Rectangular Eraser
