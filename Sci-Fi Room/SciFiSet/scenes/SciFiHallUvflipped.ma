@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: SciFiHallUvflipped.ma
-//Last modified: Thu, Mar 30, 2017 10:28:34 PM
+//Last modified: Thu, Mar 30, 2017 10:52:02 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "60C23E73-BC49-DC44-437F-F7A5AC1A7B46";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.19908196404507883 11.950728945404929 18.442247289268284 ;
-	setAttr ".r" -type "double3" -18.338352700250155 9000.6000000001222 -359.99999999952792 ;
+	setAttr ".t" -type "double3" 0.32652418316378773 12.33868416179982 18.307338621894008 ;
+	setAttr ".r" -type "double3" -19.538352700247017 9001.0000000001328 -359.99999999952428 ;
 	setAttr ".rp" -type "double3" 0 0 -4.4408920985006262e-16 ;
 	setAttr ".rpt" -type "double3" 3.4657141242121979e-16 -1.1297867461822692e-16 6.977411396261294e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
