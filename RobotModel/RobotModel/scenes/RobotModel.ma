@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: RobotModel.ma
-//Last modified: Wed, Apr 05, 2017 09:25:01 PM
+//Last modified: Wed, Apr 05, 2017 09:26:36 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l foot -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "9A95C7DE-3B46-50AA-5763-BABB3DFB5438";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 6.4749407065859872 3.142198351774026 6.2054283015827583 ;
-	setAttr ".r" -type "double3" 693.26164774005963 56566.999999974461 2.3317905629946642e-15 ;
+	setAttr ".t" -type "double3" 0.85373476307770202 1.1664130885111033 10.427709562958938 ;
+	setAttr ".r" -type "double3" 719.06164774440765 56516.59999991794 9.3344615527147936e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "77EC1CB6-7E46-1C5B-62D4-AEB6696819DA";
 	setAttr -k off ".v" no;
@@ -22,12 +22,12 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.0032808398950131233;
 	setAttr ".fcp" 328.08398950131232;
 	setAttr ".fd" 0.16404199475065617;
-	setAttr ".coi" 9.9134004706719807;
+	setAttr ".coi" 10.140419821472991;
 	setAttr ".ow" 0.32808398950131235;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -1.2076132591687383e-05 -40.1728845892831 5.1038161368713517 ;
+	setAttr ".tp" -type "double3" 44.349791526794434 30.490590143787685 9.3420017183330319 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
